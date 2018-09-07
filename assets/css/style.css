@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Poppins');
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
 .title {
 	text-align: center;
 	color: green;
 	font-size: 72px;
+	font-family: "Black Ops One", cursive;
+}
+
+.card-header {
+	background-color: green;
+	color: white;
+	font-size: 20px;
 }
