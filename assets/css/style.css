@@ -5,10 +5,11 @@ body {
 }
 
 .title {
-	text-align: center;
 	color: green;
-	font-size: 72px;
 	font-family: "Black Ops One", cursive;
+	font-size: 72px;
+	margin-top: 20px;
+	text-align: center;
 }
 
 .card-header {
