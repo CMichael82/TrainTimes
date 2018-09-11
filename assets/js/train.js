@@ -64,9 +64,7 @@ database.ref().on("child_added", function (addedTrain) {
 		$("<td>").text($frequency),
 		$("<td>").text(nextArrival),
 		$("<td>").text(minsAway),
-		$("<button id='remove'>").text("Remove"),
-		$("<button id='update'>").text("Update")
-	)
+		)
 //Add the new row to the table body
 	$("tbody").append(newRow);
 
