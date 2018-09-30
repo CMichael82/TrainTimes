@@ -22,3 +22,13 @@ button {
 	font-size: 12px;
 	margin: 5px;
 }
+
+/*Media Queries*/
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px){
+	table {
+		display: block !important;
+		overflow-x: auto;
+	}
+}
